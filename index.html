@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Trujillo</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet">
+
+    <!--Manpostería - Librería para animación de canal de youtube-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+      integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D"
+      crossorigin="anonymous" async></script>
+
+      <!--Librería para nimación de scrollear-->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      
+
+
+  </head>
+  <body>
+    <nav class="menu-principal py-2 pt-4">
+      <div class="container d-flex flex-wrap">
+        <a href="/" class="logo d-flex align-items-center mb-2 mb-lg-0
+          me-md-auto">
+          <img src="img/logo.png" alt="" role="img" aria-label="Bootstrap">
+        </a>
+        <ul class="nav">
+          <li class="nav-item"><a href="" class="nav-link px-2">Inicio</a></li>
+          <li class="nav-item"><a href="#experiencia" class="nav-link px-2">Experiencia</a></li>
+          <li class="nav-item"><a href="#proyectos" class="nav-link px-2">Proyectos</a></li>
+          <li class="nav-item"><a href="#hobbies" class="nav-link px-2">Hobbies</a></li>
+          <li class="nav-item"><a href="#canal" class="nav-link px-2">Canal</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="bannerPersonal">
+      <div class="pt-5 pb-5 text-center">
+        <div class="contenedorAvatar loader" data-aos="zoom-in">
+          <img src="img/perfil.jpg" class="">
+        </div>
+
+        <div class="redesSociales">
+          <a href="http://linkedin.com/in/migueltrujilloaguirre" target="_blank" data-aos="zoom-in">
+            <img src="img/social/linkedin.svg" alt="">
+            <img src="img/social/linkedin_c.svg" alt="">
+          </a>
+          <a href="https://twitter.com/migantrujilloa" target="_blank" data-aos="zoom-in">
+            <img src="img/social/twitter.svg" alt="">
+            <img src="img/social/twitter_c.svg" alt="">
+          </a>
+          <a href="https://www.youtube.com/@informatic?sub_confirmation=1" target="_blank" data-aos="zoom-in">
+            <img src="img/social/youtube.svg" alt="">
+            <img src="img/social/youtube_c.svg" alt="">
+          </a>
+          <a href="https://www.tiktok.com/@informaticakademy" target="_blank" data-aos="zoom-in">
+            <img src="img/social/tiktok.svg" alt="">
+            <img src="img/social/tiktok_c.svg" alt="">
+          </a>
+          <a href="https://www.facebook.com/informatic.akademy" target="_blank" data-aos="zoom-in">
+            <img src="img/social/facebook.svg" alt="">
+            <img src="img/social/facebook_c.svg" alt="">
+          </a>
+          <a href="https://www.instagram.com/informaticakademy/" target="_blank" data-aos="zoom-in">
+            <img src="img/social/instagram.svg" alt="">
+            <img src="img/social/instagram_c.svg" alt="">
+          </a>
+        </div>
+
+        <h1 class="saludo fw-bold mb-1"><span>¡Hola! soy Miguel Trujillo</span></h1>
+        <div class="col-lg-8 mx-auto" data-aos="fade-up">
+          <p class="lead">
+            ING. en Informática y de Sistemas, amante de la
+            tecnología, con una excelente capacidad
+            de organización y amplia experiencia profesional en operaciones de
+            mantenimiento, soporte técnico, uso herramientas digitales y
+            administración de sistemas.
+            <div class="lead hideText" id="hideText_4">
+              Dispongo de sólidas
+              habilidades de diagnóstico para resolver problemas y mantener el
+              rendimiento de los sistemas,
+              hábil para la configuración de dispositivos, la resolución de
+              problemas y la optimización de sistemas.
+              Me caracterizo por ser muy trabajador y comprometido
+              con los proyectos encomendados</div>
+            <button class="leerMas_btn btn" id="leerMas_btn_4">Leer más</button>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="flechaAbajo">
+      <a href="#experiencia"><img src="img/flecha_abajo.svg" alt=""></a>
+    </div>
+
+    <section class="experiencia timeline-section pt-5" id="experiencia">
+      <div class="container">
+        <div class="titulo-seccion text-center">
+          <h3>EXPERIENCIA LABORAL</h3>
+        </div>
+        <div class="timeline-items">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2021 - 2022</div>
+            <div class="timeline-content" data-aos="zoom-in-left">
+              <h3>COORDINADOR DE INNOVACIÓN Y SOPORTE TECNOLÓGICO</h3>
+              <h4>UGEL 05 - IE Javier Heraud 1178</h4>
+              <p>
+                <ul class="hideText" id="hideText_5">
+                  <li>Realizar las actividades correspondientes al uso de los
+                    recursos tecnológicos, entre ellas la alfabetización
+                    digital y el uso de aplicativos informáticos u otras
+                    herramientas que apoyen el desarrollo de los
+                    aprendizajes en los estudiantes.</li>
+                  <li>Orientar a los docentes de las diferentes áreas
+                    curriculares, en la incorporación de las TIC a las
+                    experiencias de aprendizaje.</li>
+                  <li>Dar a conocer a la comunidad educativa sobre los
+                    recursos tecnológicos con los que cuenta la I.E,
+                    promoviendo su uso y cuidado de manera eficiente.</li>
+                  <li>Verificar las condiciones técnicas de los equipos para el
+                    uso de los estudiantes y demás miembros de la
+                    comunidad educativa.</li>
+                  <li>Participar en reuniones con los docentes de aulas de
+                    innovación (si lo hubiera), coordinadores pedagógicos y
+                    de tutoría, para promover la integración de las TIC en
+                    las experiencias de aprendizaje.</li>
+                  <li>Coordinar con los docentes de las diferentes áreas el
+                    cronograma del uso de las aulas de innovación y de los
+                    recursos tecnológicos con los que cuenten la institución
+                    educativa.</li>
+                  <li>Participar en actividades (capacitaciones, reuniones de
+                    trabajo, talleres y pasantías) relacionados a la
+                    implementación de las TIC en el proceso de
+                    enseñanzaaprendizaje, promovidas por el MINEDU, DRE, UGEL y
+                    otras entidades, previa coordinación con el director de la
+                    IE.</li>
+                  <li>Supervisar las instalaciones y velar por el
+                    mantenimiento de los equipos informáticos y de
+                    comunicación, asegurando el correcto funcionamiento,
+                    sistema eléctrico, red de datos u otros que se
+                    requieran.</li>
+                  <li>Realizar soporte técnico a las acciones, que desarrolla
+                    el MINEDU, en online y/o offline para las II.EE. JEC y
+                    realizar la administración, configuración, despliegue,
+                    recojo de resultados, sincronización de los resultados y
+                    gestión de los reportes.</li>
+                  <li>Atender pertinentemente los reportes de información
+                    solicitados por la Dirección de Secundaria del
+                    MINEDU.</li>
+                  <li>Reportar el estado y el cronograma de uso de los
+                    recursos tecnológicos al director de la IE, con la
+                    finalidad de prevenir el deterioro de los equipos.</li>
+                  <li>Realizar el mantenimiento preventivo y correctivo a los
+                    recursos tecnológicos TIC, equipos informáticos y de
+                    comunicación y actualización de aplicaciones (en caso
+                    se requiera), garantizando la capacidad y operatividad
+                    de los recursos de la IE.</li>
+                  <li>Elaborar procedimientos y formatos que permitan
+                    gestionar el estado y uso de los recursos tecnológicos,
+                    los mismos que se deben reportar al director para su
+                    administración y control.</li>
+                  <li>Velar por la seguridad de las aulas TIC, así como, por
+                    la seguridad informática de los recursos tecnológicos.</li>
+                  <li>Garantizar el uso adecuado del acceso a internet,
+                    utilizando mecanismos de seguridad que permite el
+                    acceso sólo a páginas de uso educativo, así como el
+                    bloqueo de páginas no permitidas.</li>
+                  <li>Administrar, configurar y brindar soporte al servidor y
+                    los servicios implementados, tales como DNS, DHCP,
+                    filtro de contenido, entre otros.</li>
+                  <li>Realizar otras funciones relacionadas a la misión del
+                    puesto asignadas por el Órgano de Dirección de la
+                    Institución Educativa.</li>
+                </ul>
+              </p>
+              <div class="contenedorBoton_leerMas"><button class="leerMas_btn
+                  btn"
+                  id="leerMas_btn_5">Leer más</button></div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2020</div>
+            <div class="timeline-content" data-aos="zoom-in-right">
+              <h3>COORDINADOR DE INNOVACIÓN Y SOPORTE TECNOLÓGICO</h3>
+              <h4>UGEL 02 - IE República Federal de Alemania 2088</h4>
+
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2019</div>
+            <div class="timeline-content" data-aos="zoom-in-left">
+              <h3>COORDINADOR DE INNOVACIÓN Y SOPORTE TECNOLÓGICO</h3>
+              <h4>UGEL HUARI - IE N°86350 de Machac</h4>
+
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2018</div>
+            <div class="timeline-content" data-aos="zoom-in-right">
+              <h3>COORDINADOR DE INNOVACIÓN Y SOPORTE TECNOLÓGICO</h3>
+              <h4>UGEL HUARI - IE N°86350 de Machac</h4>
+
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2017</div>
+            <div class="timeline-content" data-aos="zoom-in-left">
+              <h3>DOCENTE EN EL ÁREA DE MATEMÁTICA Y TUTORÍA</h3>
+              <h4>UGEL HUARI</h4>
+              <p>
+                <ul class="hideText pt-2" id="hideText_9">
+                  <li>Desarrollo de métodos de enseñanza innovadores
+                    para optimizar los procesos de aprendizaje.</li>
+                  <li>Creación de unidades didácticas adaptadas a los
+                    niveles académicos de los alumnos.</li>
+                  <li>Uso de material digital para motivar a los estudiantes
+                    en las clases.</li>
+                </ul>
+              </p>
+              <div class="contenedorBoton_leerMas"><button class="leerMas_btn
+                  btn"
+                  id="leerMas_btn_9">Leer más</button></div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2016</div>
+            <div class="timeline-content" data-aos="zoom-in-right">
+              <h3>DECENTE EN LAS ÁREAS DE MATEMÁTICA, EDUCACIÓN PARA EL TRABAJO</h3>
+              <h4>UGEL HUARI - IE </h4>
+              <p>
+                <ul class="hideText pt-2" id="hideText_10">
+                  <li>Desarrollo de métodos de enseñanza innovadores
+                    para optimizar los procesos de aprendizaje.</li>
+                  <li>Creación de unidades didácticas adaptadas a los
+                    niveles académicos de los alumnos.</li>
+                  <li>Uso de material digital para motivar a los estudiantes
+                    en las clases.</li>
+                </ul></p>
+              <div class="contenedorBoton_leerMas"><button class="leerMas_btn
+                  btn"
+                  id="leerMas_btn_10">Leer más</button></div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2015</div>
+            <div class="timeline-content" data-aos="zoom-in-left">
+              <h3>DOCENTE DEL TALLER DE COMPUTACIÓN E INFORMÁTICA</h3>
+              <h4>UGEL HUARAZ - CETPRO San José Obreo</h4>
+              <p>
+                <ul class="hideText pt-2" id="hideText_11">
+                  <li>Desarrollo de métodos de enseñanza innovadores
+                    para optimizar los procesos de aprendizaje.</li>
+                  <li>Creación de unidades didácticas adaptadas a los
+                    niveles académicos de los alumnos.</li>
+                  <li>Uso de material digital para motivar a los estudiantes
+                    en las clases.</li>
+                  <li>Materias de diseño web, diseño gráfico, ofimática,
+                    mantenimiento de computadoras.</li>
+                </ul></p>
+              <div class="contenedorBoton_leerMas"><button class="leerMas_btn
+                  btn"
+                  id="leerMas_btn_11">Leer más</button></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="flechaAbajo">
+      <a href="#proyectos"><img src="img/flecha_abajo.svg" alt=""></a>
+    </div>
+
+    <section class="proyectos pt-4 pb-5" id="proyectos">
+      <div class="container">
+        <div class="album py-4">
+          <div class="contenedorTítulo titulo-seccion text-center mb-5">
+            <h3>PROYECTOS WEB</h3>
+          </div>
+
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3
+            text-center">
+
+            <a class="col" href="http://rodalva.com/" target="_blank" data-aos="zoom-in">
+              <div class="card shadow-sm-4">
+                <img src="img/proyectos/rodalva.jpg" alt="">
+
+                <div class="card-body">
+                  <p class="">
+                    Página web para Rodalva
+                  </p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="col" data-aos="zoom-in">
+              <div class="card shadow-sm-4">
+                <img src="img/proyectos/iemachac.jpg" alt="">
+
+                <div class="card-body">
+                  <p class="card-textr">
+                    Página web para IE N°86350
+                  </p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="col" data-aos="zoom-in">
+              <div class="card shadow-sm-4">
+                <img src="img/proyectos/portafoliopersonal.jpg" alt="">
+
+                <div class="card-body">
+                  <p class="card-textr">
+                    Portafolio personal
+                  </p>
+                </div>
+              </div>
+            </a>
+
+            <a href="" class="col" data-aos="zoom-in">
+              <div class="card shadow-sm-4">
+                <img src="img/proyectos/ferreteria.jpg" alt="">
+
+                <div class="card-body">
+                  <p class="card-textr">
+                    Página web para ferretería
+                  </p>
+                </div>
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <div class="flechaAbajo">
+      <a href="#hobbies"><img src="img/flecha_abajo.svg" alt=""></a>
+    </div>
+
+    <section class="hobbies pt-5" id="hobbies">
+
+        <div class="container pb-5" id="icon-grid">
+          <div class="contenedorTítulo titulo-seccion text-center mb-5">
+            <h3>MIS HOBBIES</h3>
+          </div>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+            <div class="col d-flex align-items-start" data-aos="zoom-out">
+              <img class="icono-hobbies" src="img/hobbies/guitarra.png" alt="">
+              <div>
+                <h3 class="fw-bold mb-0 fs-4">Tocar la Trompreta y la Guitarra</h3>
+                <p>De vez en cuando en mis ratos libres me gusta aprender a tocar la guitarra. En cuanto a la trompeta tengo una base, puesto que en los estudios de secundaría pertenecí a la banda de mpusicos de la Institución</p>
+              </div>
+            </div>
+
+            <div class="col d-flex align-items-start" data-aos="zoom-out">
+              <img class="icono-hobbies" src="img/hobbies/auriculares.png" alt="">
+              <div>
+                <h3 class="fw-bold mb-0 fs-4">Escuchar música</h3>
+                <p>Soy amante de la buena música, los géneros que más me gustan son la Balada, Rock, Tropical House, Cumbia Sureña, Huayno Sureño, Tunantada, entre otros géneros.</p>
+              </div>
+            </div>
+
+            <div class="col d-flex align-items-start" data-aos="zoom-out">
+              <img class="icono-hobbies" src="img/hobbies/futbol.png" alt="">
+              <div>
+                <h3 class="fw-bold mb-0 fs-4">Jugar Futbol</h3>
+                <p>No me considero un profesional, pero suelo tener un nivel aceptable al mometo de jugar; ultimamente luego de la pandemia y por otros factores reduje las salidas a prácticar este hermoso deporte, por esto me cuesta mantener el rendimiento.</p>
+              </div>
+            </div>
+
+            <div class="col d-flex align-items-start" data-aos="zoom-out">
+              <img class="icono-hobbies" src="img/hobbies/conocimientos.png" alt="">
+              <div>
+                <h3 class="fw-bold mb-0 fs-4">Adquirir conocmientos</h3>
+                <p>Me encanta aprender el uso de las herramientas digitales mediante diversos artículos, videos tutoriales, cursos, diplomados, etc.</p>
+              </div>
+            </div>
+
+            <div class="col d-flex align-items-start" data-aos="zoom-out">
+              <img class="icono-hobbies" src="img/hobbies/series.png" alt="">
+              <div>
+                <h3 class="fw-bold mb-0 fs-4">Ver series y películas</h3>
+                <p>Uno de mis pasatiempos favoritos es ver series y peliculas, en lo particular me facinan el género de ciencia ficción, viajes en el tiempo, tecnología.</p>              </div>
+            </div>
+            
+          </div>
+        </div>
+    </section>
+
+    <div class="flechaAbajo">
+      <a href="#canal"><img src="img/flecha_abajo.svg" alt=""></a>
+    </div>
+
+    <section class="canal container pt-5 pb-5" id="canal">
+      <div class="titulo-seccion text-center mb-4">
+        <h3>MI CANAL EN YOUTUBE</h3>
+      </div>
+
+      <div class="img-canal">
+        <span><a href="https://www.youtube.com/@informatic?sub_confirmation=1" target="_blank"><img src="img/canal/logocanal.png" alt=""></a></span>
+      </div>
+
+      <div class="cuerpo">
+        <p>Te muestro algunas listas y videos de mi canal de YouTube, dele clic y ve mi contenido.</p>
+      </div>
+      
+      <div class="row" data-masonry='{"percentPosition": true }'>
+        <div class="col-sm-6 col-lg-4 mb-4" data-aos="zoom-in-down">
+          <a class="card" href="https://www.youtube.com/watch?v=ocZ0Qppq6_o&list=PLzgJ_cdSRwfgFZvvvCvsU7NqCN3uspEUA&ab_channel=informatic" target="_blank">
+            
+            <img class="bd-placeholder-img card-img-top" width="100%" height="100%" src="img/canal/googleformadesdecero.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Google Forms desde cero</h5>
+              <p class="card-text">Aprende a crear, estructurar y administrar formularios en Google Forms.</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-4" data-aos="zoom-in-down">
+          <a class="card" href="https://youtu.be/4xXw47PlqIU" target="_blank">
+            <figure class="p-3 mb-0">
+              <blockquote class="blockquote">
+                <p>Como hacer un Checklist interactivo con barra de progreso en Excel ☑️
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer mb-0 text-muted">
+                Aprende a crear un Checklist para poder llevar el control de cumplimiento de las actividades que realizar con Excel.
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-4" data-aos="zoom-in-down">
+          <a class="card" href="https://www.youtube.com/watch?v=z_a-mhQ9VJE&list=PLzgJ_cdSRwfhinV0M-YcSISafCRvwy_SN&ab_channel=informatic" target="_blank">
+            
+            <img class="bd-placeholder-img card-img-top" width="100%" height="100%" src="img/canal/padletdesdecero.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Padlet desde cero</h5>
+              <p class="card-text">Aprende los fundamentos esenciales de Padlet.</p>
+            </div>
+          </a>
+        </div>
+      
+        <div class="col-sm-6 col-lg-4 mb-4" data-aos="zoom-in-down">
+          <a class="card" href="https://youtu.be/vD9AU8418NM" target="_blank">
+            <figure class="p-3 mb-0">
+              <blockquote class="blockquote">
+                <p>Como crear carpetas de forma masiva desde una lista de Excel 📂
+                  </p>
+              </blockquote>
+              <figcaption class="blockquote-footer mb-0 text-muted">
+                En este video te enseño como crear carpetas de forma masiva desde una lista de de Excel, con este excelente truco agilizarás tu trabajo.
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-4" data-aos="zoom-in-down">
+          <a class="card" href="https://www.youtube.com/watch?v=kFk6tU3FaFg&list=PLzgJ_cdSRwfgnFboQV5KbAHfPo9t2DYbp&ab_channel=informatic" target="_blank">
+            
+            <img class="bd-placeholder-img card-img-top" width="100%" height="100%" src="img/canal/paint3ddesdecero.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Paint 3D desde cero (Básico)</h5>
+              <p class="card-text">Aprende a usar esta interesante herramienta, con el cual podrás crear objetos 3D de una forma muy sencilla.</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-4" data-aos="zoom-in-down">
+          <a class="card" href="https://youtu.be/-1Ed908ShaA" target="_blank">
+            <figure class="p-3 mb-0">
+              <blockquote class="blockquote">
+                <p>Como borrar el contenido y formato de hoja, rango (específico) en Google Sheets - Google Apps Script
+                  </p>
+              </blockquote>
+              <figcaption class="blockquote-footer mb-0 text -muted">
+                En este interesante video aprenderemos a borrar el contenido y formato de (una hoja, de un rango y de una celda) ESPECÍFICO, en Google Sheets mediante los servicios de Google Apps Script.
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-4" data-aos="zoom-in-down">
+          <a class="card" href="https://youtu.be/c9vqxhmWBJo" target="_blank">
+            
+            <img class="bd-placeholder-img card-img-top" width="100%" height="100%" src="img/canal/mosaicoppt.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Como crear efecto mosaico animado en PowerPoint</h5>
+              <p class="card-text">En este video aprenderás a crear el efecto mosaico animado en PowerPoint, mediante este efecto podrían crear un video introductorio para sus presentaciones o usarlos como una presentación en sí.</p>
+            </div>
+          </a>
+        </div>
+
+    </section>
+
+    <div class="footer">
+      <footer class="container d-flex flex-wrap justify-content-between align-items-center
+        py-3">
+        <p class="col-md-4 mb-0 text-muted">&copy; 2023 ING. Miguel Trujillo</p>
+
+        <a href="/" class="logo d-flex align-items-center">
+          <img src="img/logo.png" alt="" role="img" aria-label="Bootstrap">
+        </a>
+
+        <ul class="nav col-md-5 justify-content-end">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Inicio</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Experiencia</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Proyectos</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Hobbies</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Canal</a></li>
+        </ul>
+      </footer>
+    </div>
+
+  </body>
+ 
+  <script src="js/scripts.js"></script>
+  <!--Librería para nimación de scrollear-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration:2000,
+      once:true,
+    });
+  </script>
+</html>
